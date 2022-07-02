@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+    font-family: verdana;
+    text-transform: capitalize;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333;
+    flex-flow: column;
+}
+
+.container {
+    height: 450px;
+    width: 330px;
+    background: #333;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    overflow-y: auto;
+}
+
+#input {
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: #666;
+    color: #fff;
+    padding: 0 10px;
+    margin: 15px 0;
+}
+
+#input::placeholder {
+    color: rgb(226, 222, 222);
+}
+
+ul li {
+    background: #eee;
+    color: #333;
+    height: 40px;
+    width: 100%;
+    border-radius: 50px;
+    margin: 5px 5px;
+    padding: 0.8rem;
+    list-style: none;
+    position: relative;
+}
+
+.circle-check,
+.circle-trash {
+    position: absolute;
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+}
+
+.circle-check {
+    right: 40px;
+}
+
+.circle-trash {
+    right: 15px;
+}
+
+.checked {
+    background: lightgreen;
+    text-decoration: line-through;
+    transition: .2s;
+}
+
+.container__title {
+    font-size: 3.2rem;
+    color: rgb(180, 187, 252);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5), 5px 5px 30px rgba(0, 0, 0, .5);
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.btn {
+    margin-top: 1rem;
+    width: 60px;
+    height: 60px;
+    background: #333;
+    font-size: 1.5rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5), 5px 5px 30px rgba(0, 0, 0, .5), inset -2px -2px 5px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn strong {
+    display: none;
+}
+
+.btn strong:nth-child(1) {
+    display: block;
+}
+
+.light .btn strong:nth-child(1) {
+    display: none;
+}
+
+.light .btn strong:nth-child(2) {
+    display: block;
+}
+
+.light {
+    background: #fafafa;
+}
+
+.night {
+    background: #fff;
+}
+
+.night #input {
+    background: #fff;
+    color: #333;
+    border: 1px solid #333;
+}
+
+.night #input::placeholder {
+    color: #666;
+}
+
+.light .btn {
+    background: #fafafa;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5), 5px 5px 30px rgba(0, 0, 0, .5), inset -2px -2px 5px rgba(0, 0, 0, 0.1), inset 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
