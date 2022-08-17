@@ -8,5 +8,7 @@ O projeto possuí modo claro e escuro, para o usuário escolher.
 
 O projeto foi desenvolvido com Jquery e JavaScript, foi realizado funções para mudar a cor do fundo da tela e do container da lista de tarefas entre o modo claro e escuro. Com Jquery foi desenvolvido a lógica para criar tarefas, apagá-las e mudá-las para feitas. 
 
+Para acessar o projeto https://joaoneves11.github.io/to-do-list/
+
 ![Captura de tela de 2022-07-02 14-54-14](https://user-images.githubusercontent.com/89143939/177011334-0a409728-75de-461d-bcd4-689172de7da9.png)
 ![Captura de tela de 2022-07-02 14-55-35](https://user-images.githubusercontent.com/89143939/177011351-7792fa8b-3a37-4403-9f00-2b877b06f044.png)
