@@ -14,11 +14,13 @@ As funções da nova versão do To-do List foram implantadas com HTML, CSS e Jav
 
 
 Para acessar o projeto https://joaoneves11.github.io/to-do-list/
-Versão 1 do projeto
-![Captura de tela de 2022-07-02 14-54-14](https://user-images.githubusercontent.com/89143939/177011334-0a409728-75de-461d-bcd4-689172de7da9.png)
-![Captura de tela de 2022-07-02 14-55-35](https://user-images.githubusercontent.com/89143939/177011351-7792fa8b-3a37-4403-9f00-2b877b06f044.png)
 
-Versão 2 do projeto
-file:///home/joaoneves/Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202022-08-18%2015-28-24.png
+## Primeira versão do projeto
 
-file:///home/joaoneves/Imagens/Capturas%20de%20tela/Captura%20de%20tela%20de%202022-08-18%2015-28-18.png
+![WhatsApp Image 2022-08-18 at 15 44 34](https://user-images.githubusercontent.com/89143939/185470738-cb02e22f-e817-4954-94ed-c0b8018b5780.jpeg)
+![WhatsApp Image 2022-08-18 at 15 44 46](https://user-images.githubusercontent.com/89143939/185470748-bb7d803a-6236-46a0-9c84-107dcb6ebf31.jpeg)
+
+## Segunda versão do projeto
+
+![Captura de tela de 2022-08-18 15-38-38](https://user-images.githubusercontent.com/89143939/185469670-ed80ae1f-f7d1-4c87-ace4-210032fb6388.png)
+![Captura de tela de 2022-08-18 15-38-24](https://user-images.githubusercontent.com/89143939/185469685-a8ac383e-cb9d-4834-b227-5740d91df85d.png)
