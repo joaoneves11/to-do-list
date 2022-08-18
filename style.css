@@ -6,7 +6,6 @@
     font-family: verdana;
     text-transform: capitalize;
 }
-
 body {
     min-height: 100vh;
     display: flex;
@@ -17,32 +16,58 @@ body {
 }
 
 .container {
-    height: 450px;
-    width: 330px;
+    height: 30rem;
+    width: 30rem;
     background: #333;
     border-radius: 5px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
     overflow-y: auto;
+    margin-bottom: 1rem ;
 }
 
-#input {
+.container__title {
+    font-size: 3.2rem;
+    color: rgb(180, 187, 252);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5), 5px 5px 30px rgba(0, 0, 0, .5);
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.btn{
+    height: 30px;
+    width: 40px;
+    background: rgb(180, 187, 252);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline-style: none;
+    border-radius: 5px;
+    box-shadow: 1px 0.5px rgba(0, 0, 0, .5);
+    margin: 30px 0px;
+}
+.inputvalue{
+    display: flex;
+    justify-content: space-around;
+}
+.inputVal{
     height: 50px;
-    width: 100%;
+    width: 80%;
     outline: none;
     border: none;
     border-radius: 5px;
     background: #666;
     color: #fff;
     padding: 0 10px;
-    margin: 15px 0;
+    margin: 20px 0px;
 }
 
-#input::placeholder {
+.inputVal::placeholder {
     color: rgb(226, 222, 222);
 }
 
-ul li {
+.pText{
     background: #eee;
     color: #333;
     height: 40px;
@@ -53,7 +78,10 @@ ul li {
     list-style: none;
     position: relative;
 }
-
+.pText:hover{
+    background-color: rgb(180, 187, 252);
+    transition: .7s;
+}
 .circle-check,
 .circle-trash {
     position: absolute;
@@ -71,22 +99,25 @@ ul li {
 }
 
 .checked {
-    background: lightgreen;
+    background-color: lightgreen;
     text-decoration: line-through;
     transition: .2s;
 }
 
-.container__title {
-    font-size: 3.2rem;
-    color: rgb(180, 187, 252);
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, .5), 5px 5px 30px rgba(0, 0, 0, .5);
-    margin: 1rem 0;
-    padding: 1rem 1rem;
-    border-radius: 1rem;
+.clearTask{
+   margin-top: 20rem;
+margin-left: 7rem;
+   background:  rgb(180, 187, 252);
+   color: #333;
+   width: 250px;
+   height: 35px;
+   border-radius: 8px;
+   text-transform: capitalize;
+   font-weight: bold;
+   cursor: pointer;
+   outline-style: none;
 }
-
-.btn {
-    margin-top: 1rem;
+.btn-theme {
     width: 60px;
     height: 60px;
     background: #333;
@@ -97,21 +128,23 @@ ul li {
     align-items: center;
     border-radius: 10px;
     cursor: pointer;
+    margin-bottom: 1rem ;
+
 }
 
-.btn strong {
+.btn-theme strong {
     display: none;
 }
 
-.btn strong:nth-child(1) {
+.btn-theme strong:nth-child(1) {
     display: block;
 }
 
-.light .btn strong:nth-child(1) {
+.light .btn-theme strong:nth-child(1) {
     display: none;
 }
 
-.light .btn strong:nth-child(2) {
+.light .btn-theme strong:nth-child(2) {
     display: block;
 }
 
@@ -123,17 +156,18 @@ ul li {
     background: #fff;
 }
 
-.night #input {
+.night .inputVal {
     background: #fff;
     color: #333;
     border: 1px solid #333;
 }
 
-.night #input::placeholder {
+.night .inputVal::placeholder {
     color: #666;
+
 }
 
-.light .btn {
+.light .btn-theme {
     background: #fafafa;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, .5), 5px 5px 30px rgba(0, 0, 0, .5), inset -2px -2px 5px rgba(0, 0, 0, 0.1), inset 2px 2px 5px rgba(0, 0, 0, 0.05);
 }
